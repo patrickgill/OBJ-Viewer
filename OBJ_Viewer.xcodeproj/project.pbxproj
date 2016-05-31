@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD582C0DA1D0D100B32029 /* OBJViewerDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58280DA1D0D100B32029 /* OBJViewerDocument.xib */; };
+		1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD582A0DA1D0D100B32029 /* MainMenu.xib */; };
+		22245F251171AD47006878D1 /* OBJ_Viewer.icns in Resources */ = {isa = PBXBuildFile; fileRef = 22245F241171AD47006878D1 /* OBJ_Viewer.icns */; };
+		225572691174E58100D22A20 /* ErrorSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 225572681174E58100D22A20 /* ErrorSheet.xib */; };
+		22833EFD1175649900F2DBC7 /* NSScanner(OBJExtras).m in Sources */ = {isa = PBXBuildFile; fileRef = 22833EFC1175649900F2DBC7 /* NSScanner(OBJExtras).m */; };
+		22A86DD01170DCD1006D15AD /* Material.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A86DCF1170DCD1006D15AD /* Material.m */; };
+		22A86E2A1170E17C006D15AD /* Mesh(Wavefront).m in Sources */ = {isa = PBXBuildFile; fileRef = 22A86E291170E17C006D15AD /* Mesh(Wavefront).m */; };
+		22A86E2D1170F9C3006D15AD /* Material(Wavefront).m in Sources */ = {isa = PBXBuildFile; fileRef = 22A86E2C1170F9C3006D15AD /* Material(Wavefront).m */; };
+		22A86E58117126C9006D15AD /* Mesh(OpenGL).m in Sources */ = {isa = PBXBuildFile; fileRef = 22A86E57117126C9006D15AD /* Mesh(OpenGL).m */; };
+		22A86E5B117126F0006D15AD /* Material(OpenGL).m in Sources */ = {isa = PBXBuildFile; fileRef = 22A86E5A117126F0006D15AD /* Material(OpenGL).m */; };
+		22A86E9211712C7A006D15AD /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A86E9111712C7A006D15AD /* OpenGL.framework */; };
+		22D79E9711700F5C00C7BA7E /* Mesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D79E9611700F5C00C7BA7E /* Mesh.m */; };
+		22D79EAF117019AC00C7BA7E /* MeshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D79EAE117019AC00C7BA7E /* MeshView.m */; };
+		22E4E9EB138B9A8F0061D9E3 /* OBJViewerDisplayModeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E4E9EA138B9A8F0061D9E3 /* OBJViewerDisplayModeControl.m */; };
+		22E4E9F7138B9F2A0061D9E3 /* OBJViewerAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E4E9F6138B9F2A0061D9E3 /* OBJViewerAppController.m */; };
+		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
+		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		8D15AC310486D014006FF6A4 /* OBJViewerDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* OBJViewerDocument.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FBA07B3F13500E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58290DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/OBJViewerDocument.xib; sourceTree = "<group>"; };
+		1DDD582B0DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		22245F241171AD47006878D1 /* OBJ_Viewer.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = OBJ_Viewer.icns; sourceTree = "<group>"; };
+		225572681174E58100D22A20 /* ErrorSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ErrorSheet.xib; sourceTree = "<group>"; };
+		22833EFB1175649900F2DBC7 /* NSScanner(OBJExtras).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSScanner(OBJExtras).h"; sourceTree = "<group>"; };
+		22833EFC1175649900F2DBC7 /* NSScanner(OBJExtras).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSScanner(OBJExtras).m"; sourceTree = "<group>"; };
+		22A86DCE1170DCD1006D15AD /* Material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Material.h; sourceTree = "<group>"; };
+		22A86DCF1170DCD1006D15AD /* Material.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Material.m; sourceTree = "<group>"; };
+		22A86E281170E17C006D15AD /* Mesh(Wavefront).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Mesh(Wavefront).h"; sourceTree = "<group>"; };
+		22A86E291170E17C006D15AD /* Mesh(Wavefront).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Mesh(Wavefront).m"; sourceTree = "<group>"; };
+		22A86E2B1170F9C3006D15AD /* Material(Wavefront).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Material(Wavefront).h"; sourceTree = "<group>"; };
+		22A86E2C1170F9C3006D15AD /* Material(Wavefront).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Material(Wavefront).m"; sourceTree = "<group>"; };
+		22A86E56117126C9006D15AD /* Mesh(OpenGL).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Mesh(OpenGL).h"; sourceTree = "<group>"; };
+		22A86E57117126C9006D15AD /* Mesh(OpenGL).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Mesh(OpenGL).m"; sourceTree = "<group>"; };
+		22A86E59117126F0006D15AD /* Material(OpenGL).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Material(OpenGL).h"; sourceTree = "<group>"; };
+		22A86E5A117126F0006D15AD /* Material(OpenGL).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Material(OpenGL).m"; sourceTree = "<group>"; };
+		22A86E9111712C7A006D15AD /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		22D79E9511700F5C00C7BA7E /* Mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mesh.h; sourceTree = "<group>"; };
+		22D79E9611700F5C00C7BA7E /* Mesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mesh.m; sourceTree = "<group>"; };
+		22D79EAD117019AC00C7BA7E /* MeshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeshView.h; sourceTree = "<group>"; };
+		22D79EAE117019AC00C7BA7E /* MeshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeshView.m; sourceTree = "<group>"; };
+		22E4E9E9138B9A8F0061D9E3 /* OBJViewerDisplayModeControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBJViewerDisplayModeControl.h; sourceTree = "<group>"; };
+		22E4E9EA138B9A8F0061D9E3 /* OBJViewerDisplayModeControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBJViewerDisplayModeControl.m; sourceTree = "<group>"; };
+		22E4E9F5138B9F2A0061D9E3 /* OBJViewerAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBJViewerAppController.h; sourceTree = "<group>"; };
+		22E4E9F6138B9F2A0061D9E3 /* OBJViewerAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBJViewerAppController.m; sourceTree = "<group>"; };
+		2564AD2C0F5327BB00F57823 /* OBJ_Viewer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBJ_Viewer_Prefix.pch; sourceTree = "<group>"; };
+		2A37F4ACFDCFA73011CA2CEA /* OBJViewerDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBJViewerDocument.m; sourceTree = "<group>"; };
+		2A37F4AEFDCFA73011CA2CEA /* OBJViewerDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBJViewerDocument.h; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D15AC360486D014006FF6A4 /* OBJ_Viewer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OBJ_Viewer-Info.plist"; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* OBJ Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OBJ Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+				22A86E9211712C7A006D15AD /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+				22A86E9111712C7A006D15AD /* OpenGL.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+				13E42FBA07B3F13500E4EEF1 /* CoreData.framework */,
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* OBJ Viewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* OBJ Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			name = "OBJ Viewer";
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4AEFDCFA73011CA2CEA /* OBJViewerDocument.h */,
+				2A37F4ACFDCFA73011CA2CEA /* OBJViewerDocument.m */,
+				22D79EAD117019AC00C7BA7E /* MeshView.h */,
+				22D79EAE117019AC00C7BA7E /* MeshView.m */,
+				22D79E9511700F5C00C7BA7E /* Mesh.h */,
+				22D79E9611700F5C00C7BA7E /* Mesh.m */,
+				22A86E281170E17C006D15AD /* Mesh(Wavefront).h */,
+				22A86E291170E17C006D15AD /* Mesh(Wavefront).m */,
+				22A86E56117126C9006D15AD /* Mesh(OpenGL).h */,
+				22A86E57117126C9006D15AD /* Mesh(OpenGL).m */,
+				22A86DCE1170DCD1006D15AD /* Material.h */,
+				22A86DCF1170DCD1006D15AD /* Material.m */,
+				22A86E2B1170F9C3006D15AD /* Material(Wavefront).h */,
+				22A86E2C1170F9C3006D15AD /* Material(Wavefront).m */,
+				22A86E59117126F0006D15AD /* Material(OpenGL).h */,
+				22A86E5A117126F0006D15AD /* Material(OpenGL).m */,
+				22833EFB1175649900F2DBC7 /* NSScanner(OBJExtras).h */,
+				22833EFC1175649900F2DBC7 /* NSScanner(OBJExtras).m */,
+				22E4E9E9138B9A8F0061D9E3 /* OBJViewerDisplayModeControl.h */,
+				22E4E9EA138B9A8F0061D9E3 /* OBJViewerDisplayModeControl.m */,
+				22E4E9F5138B9F2A0061D9E3 /* OBJViewerAppController.h */,
+				22E4E9F6138B9F2A0061D9E3 /* OBJViewerAppController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2564AD2C0F5327BB00F57823 /* OBJ_Viewer_Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				225572681174E58100D22A20 /* ErrorSheet.xib */,
+				22245F241171AD47006878D1 /* OBJ_Viewer.icns */,
+				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
+				8D15AC360486D014006FF6A4 /* OBJ_Viewer-Info.plist */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+				1DDD58280DA1D0D100B32029 /* OBJViewerDocument.xib */,
+				1DDD582A0DA1D0D100B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* OBJ Viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "OBJ Viewer" */;
+			buildPhases = (
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OBJ Viewer";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "OBJ Viewer";
+			productReference = 8D15AC370486D014006FF6A4 /* OBJ Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "OBJ_Viewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* OBJ Viewer */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* OBJ Viewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */,
+				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
+				1DDD582C0DA1D0D100B32029 /* OBJViewerDocument.xib in Resources */,
+				1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */,
+				22245F251171AD47006878D1 /* OBJ_Viewer.icns in Resources */,
+				225572691174E58100D22A20 /* ErrorSheet.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC310486D014006FF6A4 /* OBJViewerDocument.m in Sources */,
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				22D79E9711700F5C00C7BA7E /* Mesh.m in Sources */,
+				22D79EAF117019AC00C7BA7E /* MeshView.m in Sources */,
+				22A86DD01170DCD1006D15AD /* Material.m in Sources */,
+				22A86E2A1170E17C006D15AD /* Mesh(Wavefront).m in Sources */,
+				22A86E2D1170F9C3006D15AD /* Material(Wavefront).m in Sources */,
+				22A86E58117126C9006D15AD /* Mesh(OpenGL).m in Sources */,
+				22A86E5B117126F0006D15AD /* Material(OpenGL).m in Sources */,
+				22833EFD1175649900F2DBC7 /* NSScanner(OBJExtras).m in Sources */,
+				22E4E9EB138B9A8F0061D9E3 /* OBJViewerDisplayModeControl.m in Sources */,
+				22E4E9F7138B9F2A0061D9E3 /* OBJViewerAppController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58280DA1D0D100B32029 /* OBJViewerDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58290DA1D0D100B32029 /* English */,
+			);
+			name = OBJViewerDocument.xib;
+			sourceTree = "<group>";
+		};
+		1DDD582A0DA1D0D100B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD582B0DA1D0D100B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4BAFDCFA73011CA2CEA /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C05733C808A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OBJ_Viewer_Prefix.pch;
+				INFOPLIST_FILE = "OBJ_Viewer-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.timmaxwell.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "OBJ Viewer";
+			};
+			name = Debug;
+		};
+		C05733C908A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OBJ_Viewer_Prefix.pch;
+				INFOPLIST_FILE = "OBJ_Viewer-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.timmaxwell.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "OBJ Viewer";
+			};
+			name = Release;
+		};
+		C05733CC08A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C05733CD08A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "OBJ Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733C808A9546B00998B17 /* Debug */,
+				C05733C908A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "OBJ_Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733CC08A9546B00998B17 /* Debug */,
+				C05733CD08A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}
